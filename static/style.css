@@ -1,0 +1,25 @@
+h1 {
+    background-color: rgb(170, 190, 190);
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#parents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    margin: 10px;
+    box-sizing: border-box;
+}
